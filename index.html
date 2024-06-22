@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CRUD Application</h1>
+        <div class="form-container">
+            <input type="text" id="itemName" placeholder="Enter Item Name">
+            <input type="number" id="rate" placeholder="Enter Item Rate">
+            <textarea id="description" placeholder="Description"></textarea>
+            <div>
+                <button id="createBtn">Create</button>
+                <button id="updateBtn" style="display: none;">Update</button>
+            </div>
+
+        </div>
+        <table class="post-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Item Name</th>
+                    <th>Rate</th>
+                    <th>Description</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="postList"></tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

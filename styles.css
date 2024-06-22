@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+#itemName, #description, #rate {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#body {
+    height: 100px;
+}
+
+ button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.post-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.post-table th, .post-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+.post-table th {
+    background-color: #f2f2f2;
+}
+.deleteBtn, .editBtn {
+    cursor: pointer;
+    padding: 5px 10px;
+    border: none;
+    background-color: #f44336;
+    color: white;
+    margin-right: 5px;
+}
+.editBtn {
+    background-color: #4CAF50;
+}
